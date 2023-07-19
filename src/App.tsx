@@ -33,7 +33,7 @@ const App: React.FC = () => (
         <Route exact path="/">
           <Login />
         </Route>
-        <Route path="/register" component={Register} exact />
+        <Route exact path="/register" component={Register} />
         <Route path="/app" component={Menu} />
       </IonRouterOutlet>
     </IonReactRouter>

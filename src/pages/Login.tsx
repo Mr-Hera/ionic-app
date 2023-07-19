@@ -38,7 +38,7 @@ const Login: React.FC = () => {
     };
     
     const seeIntroAgain = async () => {
-        console.log('Finished');
+        console.log('Intro Again');
         setIntroSeen(false);
         Preferences.remove({key: INTRO_KEY});
     };
